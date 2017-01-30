@@ -4,7 +4,8 @@
 module.exports = {
     entry: {
         app: './src/app.js',
-        index: './src/index.js'
+        index: './src/index.js',
+        login: './src/login.js'
     },
     output: {
         path: './public/js/',

@@ -3,5 +3,14 @@
  */
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-
-ReactDOM.render(<h1>app</h1>, document.getElementById('app'));
+import Header from './component/header';
+// const Header = (props) => (
+//     <nav className="navbar navbar-default" role="navigation">
+//         <div className="container-fluid">
+//             <div className="navbar-header">
+//
+//             </div>
+//         </div>
+//     </nav>
+// );
+ReactDOM.render(<Header />, document.getElementById('app'));
