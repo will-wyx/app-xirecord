@@ -9,7 +9,7 @@ const Header = (props) => {
             case 'news':
                 return <NavItem key={i}>新闻</NavItem>;
             case 'label':
-                return <NavItem key={i}>厂牌</NavItem>;
+                return <NavItem href='/labels' key={i}>厂牌</NavItem>;
             case 'artist':
                 return <NavItem key={i}>艺人</NavItem>;
             case 'album':
